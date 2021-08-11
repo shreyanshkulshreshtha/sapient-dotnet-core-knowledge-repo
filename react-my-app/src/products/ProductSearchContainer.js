@@ -12,6 +12,9 @@ export class ProductSearchContainer extends React.Component{
                 {Id:2,Name:"P2",Price:2000},
                 {Id:3,Name:"P3",Price:3000}]
             };
+        
+        // Fixed Bug
+        this.onSearchKeyChanged = this.onSearchKeyChanged.bind(this);
     }
 onSearchKeyChanged(value){
 
